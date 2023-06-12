@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e9c8c8;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    padding-top: 80px;
+    
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    justify-content: space-between;
+    
+}
+
+   
+.navbar ul {
+    display: flex;
+    width: 100%;
+    background-color: rgb(88, 73, 73);
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
+.navbar li {
+    list-style-type: none;
+    padding: 1.5rem;
+    
+
+}
+.navbar a {
+    text-decoration: none;
+    color: azure;
+}
+
+.navbar-logo {
+    flex: 1;
+    font-size: 1.5rem;
+    user-select: none;
+}
+.navbar-links:hover {
+    background-color: rgb(208, 168, 116);
+    color: rgb(43, 33, 33);   /*not working*/
+    transition: 0.3 ease;
+    padding: 1.5rem;
+    border-radius: 8px;
+    
+
+}
+.navbar-toggle {
+    display: none;
+
+}
+@media(max-width: 600px){
+    .navbar ul{
+        flex-wrap: wrap;
+    }
+    .navbar-toggle{
+        display: block;
+        }
+    .navbar-links {
+        display: none;
+        width: 100%;
+        text-align: center;
+        padding: 2rem;
+
+    }
+    .active {
+        display: block; /*not working */
+    }
+
+}
+.home-section{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-section .content{
+    text-align: center;
+}
+section{
+    padding : 20px;
+}
+section h1,
+section h2 {
+    margin-bottom: 10px;
+}
+.home-section p{
+    font-size: 18px;
+    text-align: center;
+    
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+form label, form input, form textarea{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+form input[type="submit"]{
+    width: auto;
+    display: inline-block;
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding :0;
+}
+footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+footer ul li img {
+    width: 30px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+

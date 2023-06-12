@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li class="navbar-logo">Bahar Madanian</li>
+          <li class="navbar-toggle">
+            <span class="material-symbols-outlined"> menu </span>
+          </li>
+          <li class="navbar-links">
+            <a href="/Bahar Maadanian_CV.pdf" target="_blank">Resume</a>
+          </li>
+          <li class="navbar-links"><a href="#home-section">Home</a></li>
+          <li class="navbar-links"><a href="#blog">Blog</a></li>
+          <li class="navbar-links"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section id="home" class="home-section">
+          <div class="content-container">
+            <h1>Hey ! This is Bahar's Portfolio</h1>
+            <img src="profile_picture.jpg" alt="Profile Picture" />
+            <p>
+              I am a front end web developer and due to my enthusiast for being
+              productive and problem solver I will try to act in a proper time
+              to do the best for websites. Thanks for visiting my portfolio. We
+              can be in a beneficial collaborating , do you want to cantact?
+              click <a href="" class="#contact">here.</a>
+            </p>
+          </div>
+        </section>
+        <section id="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li><a href="#">Project 1</a></li>
+            <li><a href="#">Project 2</a></li>
+            <li><a href="#">Project 3</a></li>
+          </ul>
+        </section>
+        <div id="contact-section" class="contact-form">
+          <h2>Contact Us</h2>
+        <form class=""
+        action="https://formspree.io/f/xzbqlqdz"
+        method="POST"
+      >
+      <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        <label>
+          Your email:
+          <input type="email" name="email">
+        </label>
+        <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required />
+          
+        <label>
+          Your message:
+          <textarea rows="10" name="message"></textarea>
+        </label>
+        <button type="submit">Submit</button>
+      </form>
+      </article>
+    </div>
+    <button class="top"><a href="#top">&uarr;</a></button>
+  </main>
+
+    <footer>
+      <ul class="footer-social">
+        <li>
+          <a href="https://github.com"
+            ><img src="/GitHub.png" alt="GitHub"
+          /></a>
+        </li>
+        <li>
+          <a class="icon" href="#"
+            ><img src="facebook.png" alt="Facebook" width="50px"
+          /></a>
+        </li>
+        <li>
+          <a href="https://linkedin.com"
+            ><img src="/linked Inn.png" alt="LinkedIn"
+          /></a>
+        </li>
+        
+        <li>
+          <a href="https://twitter.com"
+            ><img src="twitter.png" alt="Twitter"
+          /></a>
+        </li>
+        <p class="footer-buttom">
+          &copy; 2023 Tech Blog. All rights reserved For Bahar.
+        </p>
+      </ul>
+    </footer>
+    <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script>
+      function onSubmit(token) {
+        document.getElementById("demo-form").submit();
+      }
+    </script> -->
+  </body>
+</html>
