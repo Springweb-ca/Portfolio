@@ -23,4 +23,5 @@ form.addEventListener('submit', function(event){
     console.log('phone Number:', phone);
 
     form.reset();
-})
+});
+
