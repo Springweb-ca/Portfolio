@@ -10,6 +10,7 @@
     <title>My Portfolio</title>
   </head>
   <body>
+    <a id="top"></a>
     <header>
       <nav class="navbar">
         <ul>
@@ -22,58 +23,88 @@
           </li>
           <li class="navbar-links"><a href="#home-section">Home</a></li>
           <li class="navbar-links"><a href="#blog">Blog</a></li>
-          <li class="navbar-links"><a href="#contact">Contact</a></li>
+          <li class="navbar-links"><a href="#contact-section">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <article>
-        <section id="home" class="home-section">
-          <div class="content-container">
-            <h1>Hey ! This is Bahar's Portfolio</h1>
-            <img src="profile_picture.jpg" alt="Profile Picture" />
+      <section id="home" class="home-section">
+        <div class="centered">
+          <h1>Hey ! This is Bahar's Portfolio</h1>
+          <img src="profile_picture.jpg" alt="Profile Picture" />
+          <p class="text-head">
+            I am a front end web developer With over 3 years of experience in the field, I have honed my skills in creating modern, user-friendly, and responsive websites that leave a lasting impact.
+            do you want to cantact? click
+            <a href="#contact-section" class="">here.</a>
+          </p>
+        </div>
+      </section>
+      
+      <section id="blog-section" class="blog-grid">
+        <div class="blog-card">
+          <div class="image-section image-one"></div>
+          <div>
+            <h3>Sample Design </h3>
             <p>
-              I am a front end web developer and due to my enthusiast for being
-              productive and problem solver I will try to act in a proper time
-              to do the best for websites. Thanks for visiting my portfolio. We
-              can be in a beneficial collaborating , do you want to cantact?
-              click <a href="" class="#contact">here.</a>
+              My journey as a web developer began with a strong curiosity for technology and a desire to bring creative visions to life. Over the years, I have built a solid foundation in HTML, CSS, JavaScript, React.JS, Wordpress and C++. constantly staying up-to-date with the latest trends and advancements in front-end development. <br />
+            </p>
+            <a href="post1.html">Read More</a>
+          </div>
+        </div>
+
+        <div class="blog-card">
+          <div class="image-section image-two"></div>
+          <div>
+            <h3>Extension Building</h3>
+            <p>
+              I believe that every project is an opportunity to create something unique and memorable. Whether it's designing intuitive user interfaces, optimizing website performance, or implementing engaging animations, I strive to deliver high-quality solutions that not only meet the functional requirements but also exceed expectations.
+
+
+              <br />
+              <a href="https://github.com/Springwebs/Daily-Planner-Chrome-Extension.git">Go to Extension</a>
             </p>
           </div>
-        </section>
-        <section id="projects">
-          <h2>Projects</h2>
-          <ul>
-            <li><a href="#">Project 1</a></li>
-            <li><a href="#">Project 2</a></li>
-            <li><a href="#">Project 3</a></li>
-          </ul>
-        </section>
-        <div id="contact-section" class="contact-form">
-          <h2>Contact Us</h2>
-        <form class=""
-        action="https://formspree.io/f/xzbqlqdz"
-        method="POST"
-      >
-      <label for="name">Name:</label>
+        </div>
+
+        <div class="blog-card">
+          <div class="image-section image-three"></div>
+          <div>
+            <h3>in-operation Website</h3>
+            <p>
+              Collaboration is at the heart of my work ethic. I enjoy working closely with clients and designers, translating their ideas into elegant and efficient code. By understanding their objectives and incorporating feedback throughout the development process, I ensure that the end result aligns perfectly with their vision.
+            </p>
+            <a href="post3.html">Read More</a>
+          </div>
+        </div>
+      </section>
+        <!-- <h2>Projects</h2>
+        <ul>
+          <li><a href="#">Project 1</a></li>
+          <li><a href="#">Project 2</a></li>
+          <li><a href="#">Project 3</a></li>
+        </ul>
+      </section> -->
+      <div id="contact-section" class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="https://formspree.io/f/xzbqlqdz" method="POST">
+          <label for="name">Name:</label>
           <input type="text" id="name" name="name" required />
-        <label>
-          Your email:
-          <input type="email" name="email">
-        </label>
-        <label for="phone">Phone Number:</label>
+          <label>
+            Your email:
+            <input type="email" name="email" />
+          </label>
+          <label for="phone">Phone Number:</label>
           <input type="tel" id="phone" name="phone" required />
-          
-        <label>
-          Your message:
-          <textarea rows="10" name="message"></textarea>
-        </label>
-        <button type="submit">Submit</button>
-      </form>
-      </article>
-    </div>
-    <button class="top"><a href="#top">&uarr;</a></button>
-  </main>
+
+          <label>
+            Your message:
+            <textarea rows="10" name="message"></textarea>
+          </label>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+      <button class="top"><a href="#top">&uarr;</a></button>
+    </main>
 
     <footer>
       <ul class="footer-social">
@@ -92,7 +123,7 @@
             ><img src="/linked Inn.png" alt="LinkedIn"
           /></a>
         </li>
-        
+
         <li>
           <a href="https://twitter.com"
             ><img src="twitter.png" alt="Twitter"

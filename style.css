@@ -88,7 +88,7 @@ body{
 .home-section .content{
     text-align: center;
 }
-section{
+/* section{
     padding : 20px;
 }
 section h1,
@@ -99,7 +99,52 @@ section h2 {
     font-size: 18px;
     text-align: center;
     
-}
+} */
+
+
+.contact-form {
+    max-width: 400px;
+          margin: 20px auto;
+                 background: /*linear-gradient(45deg, #ff7f50, #ff4500),*/
+                        linear-gradient(135deg, #7f4f5a, #f5d4a3);
+            color: #fff;
+          padding: 20px;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          animation: slide-up 0.5s ease;
+        }
+    
+        .contact-form h2 {
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+    
+        .contact-form label {
+          display: block;
+          font-weight: bold;
+          margin-bottom: 5px;
+        }
+.contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    .contact-form button {
+        padding: 10px 20px;
+        background-color: #9a8d8d;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+  
+      .contact-form button:hover {
+        background-color: #555;
+      }
+      #contact-section { 
+        box-shadow: 0px 4px 8px 0px rgb(68, 54, 54);}
+
 form {
     max-width: 400px;
     margin: 0 auto;
@@ -124,10 +169,58 @@ footer ul li {
     margin-right: 10px;
 }
 footer ul li img {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     font-family: Arial, Helvetica, sans-serif;
-
-
 }
+footer {
+    background-color: #bab3b3;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    max-height: 150px;
+  }
+
+  .footer-social {
+    margin-top: 20px;
+  }
+
+  .footer-social a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: opacity 0.3s ease;
+  }
+
+  .footer-social a:hover {
+    opacity: 0.7;
+  }
+  .top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width:25px;
+    height: 25px;
+    background-color: #d8c2c2;
+    color: #fff;
+    border-radius: 35%;
+    text-align: center;
+    justify-content: center;
+    line-height: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+    z-index: 999;
+  }
+
+.top:hover {
+    opacity: 0.5;
+  }
+.footer-buttom {
+    padding-bottom: 25px;
+  }
+
+
+    
 
